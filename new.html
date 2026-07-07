@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"];
+
+cities.push("Multan");
+cities.push("Hyderabad");
+
+console.log(cities);
+
+
+// Question 2
+
+var foods = ["Pizza", "Burger", "Biryani", "Pasta", "Fries", "Sandwich"];
+
+foods.pop();
+
+console.log(foods);
+
+
+// Question 3
+
+var colors = ["Red", "Blue", "Green", "Yellow", "Black"];
+
+colors.shift();
+
+console.log(colors);
+
+
+// Question 4
+
+var languages = ["JavaScript", "Python", "Java", "C++", "PHP"];
+
+languages.unshift("HTML");
+languages.unshift("CSS");
+
+console.log(languages);
+
+
+// Question 5
+
+var fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes", "Peach", "Cherry", "Guava"];
+
+var copyFruits = fruits.slice(2, 6);
+
+console.log(fruits);
+console.log(copyFruits);
+
+
+// Question 6
+
+var animals = ["Cat", "Dog", "Horse", "Goat", "Cow", "Camel", "Rabbit"];
+
+animals.splice(2, 0, "Lion", "Tiger");
+
+console.log(animals);
+
+
+// Question 7
+
+var cars = ["Toyota", "Honda", "BMW", "Audi", "Kia", "Suzuki"];
+
+cars.splice(2, 2);
+
+console.log(cars);
+
+
+// Question 8
+
+var subjects = ["Math", "Physics", "Chemistry", "English", "Biology", "Urdu"];
+
+subjects.splice(1, 1, "Computer Science");
+
+console.log(subjects);
+
+
+// Question 9
+
+var students = ["Ali", "Usman", "Hamza", "Bilal", "Saad", "Ayan", "Asad", "Hassan", "Raza", "Zain"];
+
+students.push("Ahmed");
+students.push("Umer");
+
+students.shift();
+
+students.unshift("Ahmed");
+
+students.pop();
+
+console.log(students);
+
+
+// Question 10
+
+var mobiles = ["Samsung", "Vivo", "Oppo", "Realme", "Infinix", "Tecno", "Nokia", "Xiaomi"];
+
+mobiles.push("OnePlus");
+
+mobiles.shift();
+
+mobiles.unshift("Apple");
+
+var copyMobiles = mobiles.slice(5);
+
+mobiles.splice(3, 0, "Nothing");
+
+console.log(mobiles);
+console.log(copyMobiles);
+
+
+// Bonus
+
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+numbers.push(100);
+numbers.push(200);
+
+numbers.shift();
+
+numbers.unshift(0);
+
+var middle = numbers.slice(3,8);
+
+numbers.splice(3,1,999);
+
+console.log(numbers);
+console.log(middle);
+
+</script>
+</body>
+</html>
